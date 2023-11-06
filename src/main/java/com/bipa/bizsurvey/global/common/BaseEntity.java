@@ -23,4 +23,6 @@ public abstract class BaseEntity {
     @LastModifiedDate
     @Column(name = "moddate")
     private LocalDateTime modDate;
+
+    // main 에서의 변경점
 }
